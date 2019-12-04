@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: .8em 1.2em;
+}
+
+header {
+    display: flex;
+    height: 15%;
+    justify-content: space-between;
+    background: #F6F6F6;
+}
+
+.query-bar{
+    margin: 35%;
+
+    width: 30%;
+    height: 30%;
+    background: firebrick;
+    border-radius: 2em;
+
+    margin-top: 10%;
+    margin-bottom: 35%;
+}
+
+.btn{
+    width: 25%;
+    margin-top: 2em;
+    margin-bottom: 6em;
+}
+
+input{
+    width: 60%;
+    height: 25px;
+}
+
+h1{
+    position: relative;
+    right: 0;
+    margin-top: 2em;
+    font-size: 20px;
+}
+
+h2{
+    padding-top: 2em;
+    margin-bottom: .5em;
+}

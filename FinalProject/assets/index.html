@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>ToonScript</title>
+</head>
+
+<body>
+    <div class="top-container">
+        <header>
+            <h1>ToonScript Query Entry</h1>
+        </header>
+    </div>
+
+    <div class="search-container">
+        <div class="query-bar">
+
+            <form action="ToonScript_Servlet" method="post">
+                <h2>Enter A Query</h2>
+                <input type="text" name="query" value="${q.query }"><br>
+                <input type="submit" value="Send" class="btn">
+            </form>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <ul class="footer-links">
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+
+                <li>
+                    <a href="#">About This Project</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
